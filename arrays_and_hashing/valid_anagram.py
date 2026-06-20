@@ -1,5 +1,5 @@
 """
-Approach: for each string, if they are no the same legnth, we return False. If not, we build a dictionary
+Approach: for each string, if they are no the same length, we return False. If not, we build a dictionary
 where each distinct character is the key and its value is the number of times it appears. 
 Building it will take O(s.length + t.length). Then, we simply compare both dictionaries and check wether 
 they are the same, which should O(s.length) since they're the same length.
